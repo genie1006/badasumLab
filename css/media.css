@@ -1,0 +1,388 @@
+@charset "utf-8";
+
+
+@media (max-width:1310px) {
+    h3{margin: 30px 0;}
+
+    .container{width: 100%;}
+
+    /* header */
+    .header .nav{float: right;}
+    .header .etc{
+        position: absolute;
+        right: 5px;
+        top: 0px;
+        margin-top: 0px;
+    }
+    /* dots */
+    #dots{display: none;}
+
+    /* contents1 */
+    .contents1{
+        height: auto;
+    }
+    .contents1 > article{
+        height: 770px;
+        margin: 10px;
+    }
+    .contents1 > article p{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .contents1 .intro > h3{
+        font-size: 38px;
+    }
+    .contents1 .intro > figure > img{
+        width: 300px;
+    }
+    .contents1 .fd_intro > .fdint_box > h4{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* contents2 */
+    .contents2{height: auto;}
+    .contents2 article > .tour_box{padding: 3%;}
+    .contents2 article > .tour_box > h4{height: 50px;}
+    .contents2 article > .tour_box > em > strong{display: block;}
+    .contents2 .tour1{
+        width: 98%;
+        margin: 2%;
+    }
+    .contents2 .tour1 > .tour_box > h4{font-size: 40px;}
+
+    /* contents3 */
+    .contents3{height: auto;}
+    .contents3 .edu_card > a > .edu_box > h4{font-size: 21px;}
+    .contents3 .edu_card > a > .edu_box > p{font-size: 14px;font-weight: 500;}
+
+    /* contents4 */
+    .contents4{height: 900px;padding-top: 0px;}
+
+    /* footer */
+    .footer .f_left{
+        width: 30%;
+    }
+    .footer .f_mid{
+        width: 40%;
+    }
+    .footer .f_right{
+        width: 30%;
+    }
+    .footer .f_menu{
+        padding-left: 50px;
+    }
+    .footer .f_menu ul{
+        justify-content: start;
+    }
+    .footer .f_menu ul li{padding: 0 10px;}
+    .footer .f_menu ul li::before{display: none;}
+}
+@media (max-width:1024px) {
+    /* header */
+    .header .nav > ul > li{width: 120px;}
+    .header .nav > ul > li > a{font-size: 22px;}
+    .header .nav > ul > li > ul.submenu{width: 120px;}
+    .header .nav > ul > li > ul.submenu > li > a{font-size: 20px;}
+
+    /* contents1 */
+    .contents1{padding: 10px;}
+    .contents1 > article{height: 660px;}
+    .contents1 > article p{font-size: 13px;}
+    .contents1 .intro > h3{font-size: 36px;}
+    .contents1 .intro > figure > img{width: 250px;}
+
+    /* contents3 */
+    .contents3 .edu_card > a > .edu_box > h4{font-size: 20px;}
+    .contents3 .edu_card > a > .edu_box > p{font-size: 12px;margin-top: 10px;}
+
+    /* footer */
+    .footer .f_mid{padding: 18px;}
+}
+@media (max-width:960px) {
+    h3{font-size: 45px;}
+
+    /* header */
+    .header .nav > ul > li{width: 90px;}
+    .header .nav > ul > li > a{font-size: 18px;}
+    .header .nav > ul > li > ul.submenu{width: 90px;}
+    .header .nav > ul > li > ul.submenu > li > a{font-size: 16px;}
+
+    /* contents1 */
+    .contents1{flex-wrap: wrap;}
+    .contents1 > article{
+        width: 100%;
+        height: 1000px;
+    }
+    .contents1 > article p{font-size: 18px;}
+    .contents1 .intro > h3{font-size: 50px;padding-top: 20px;}
+    .contents1 .intro > figure > img{
+        margin: 10px auto;
+        width: 50%;
+    }
+
+    /* contents2 */
+    .contents2 article{width: 100%;}
+    .contents2 article > .tour_box > h4{font-size: 40px;}
+    .contents2 article > .tour_box > p{font-size: 24px;}
+    .contents2 article > .tour_box > em{font-size: 24px;}
+    .contents2 article > .tour_box > em > strong{font-size: 30px;}
+    .contents2 .tour1{margin: 2%;}
+
+    /* contents3 */
+    .contents3 .edu_card{width: 100%;height: 23%;}
+    .contents3 .edu_card > a{margin: 2.5%;padding: 2.5%;}
+    .contents3 .edu_card > a > .edu_box{padding: 10px 20px 10px 10px;}
+    .contents3 .edu_card > a > .edu_box > h4{font-size: 24px;}
+    .contents3 .edu_card > a > .edu_box > p{font-size: 16px;font-weight: 700;}
+
+    /* contents4 */
+    .contents4{height: 800px;}
+    .contents4 .tab_menu >ul>li>a{width: 130px;font-size: 28px;}
+    .contents4 .tab_menu >ul>li>.swiper .swiper-slide{height: 500px;}
+
+    /* footer */
+    .footer .f_left{width: 20%;}
+    .footer .f_mid{width: 50%;padding: 15px;}
+    .footer .f_right{width: 30%;}
+    .footer .f_logo a img{width: 100%;left: 100%;}
+    .footer .f_menu{padding-left: 20px;}
+    .footer .f_info{padding-left: 30px;}
+    .footer .f_copy{padding-left: 30px;}
+    .footer .f_customer{height: auto;padding: 15px 0 10px 20px;}
+    .footer .f_customer em{margin: 2px 0 5px 0;}
+    .footer .f_link{height: auto;padding: 0 30px;}
+}
+@media (max-width:768px) {
+    h3{font-size: 36px;}
+
+    /* header */
+    .header{height: 60px;}
+    .header h1{width: 150px;height: 60px;}
+    .header h1 a{width: 120px;}
+    .header .nav{
+        display: none;
+        margin-top: 60px;
+        width: 140px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .header .nav > ul > li{
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .header .nav > ul > li > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .header .nav > ul > li > ul.submenu{
+        position: static;
+        width: 100%;
+        margin: 0;
+    }
+    .header .etc{
+        height: 60px;
+        right: 30px;
+    }
+    .header .nav_m{
+        position: absolute;
+        top: 23px;
+        right: 20px;
+        width: 20px;
+        height: 15px;
+        cursor: pointer;
+    }
+    .header .nav_m span{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #555;
+        border-radius: 2px;
+        position: relative;
+    }
+    
+    .header .nav_m span::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 100%;
+        height: 3px;
+        background-color: #555;
+        border-radius: 2px;
+    }
+    
+    .header .nav_m span::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 12px;
+        width: 100%;
+        height: 3px;
+        background-color: #555;
+        border-radius: 2px;
+    }
+    .header .nav_m:hover span{background-color: #0e409a;}
+    .header .nav_m:hover span::after{background-color: #0e409a;}
+    .header .nav_m:hover span::before{background-color: #0e409a;}
+    /* contents1 */
+    .contents1 > article{height: 800px;}
+    .contents1 .intro > h3{font-size: 36px;padding-top: 0px;}
+    .contents1 > article p{font-size: 16px;}
+
+    /* contents2 */
+    .contents2 article > .tour_box > h4{font-size: 35px;}
+    .contents2 article > .tour_box > p{font-size: 18px;}
+    .contents2 article > .tour_box > em{font-size: 16px;}
+    .contents2 article > .tour_box > em > strong{font-size: 20px;}
+    .contents2 .tour1 > .tour_box > h4{font-size: 35px;}
+    .contents2 .tour1 > .tour_box > p{font-size: 18px;}
+    .contents2 .tour1 > .tour_box > em{font-size: 16px;}
+    .contents2 .tour1 > .tour_box > em > strong{font-size: 20px;}
+
+    /* contents4 */
+    .contents4 .tab_menu >ul>li>a{width: 100px;font-size: 26px;line-height: 40px;}
+
+    /* footer */
+    .footer .f_left{width: 100%;}
+    .footer .f_mid{width: 60%;}
+    .footer .f_right{width: 40%;}
+    .footer .f_logo{height: 150px}
+    .footer .f_customer{padding: 15px 0 10px 60px;}
+    .footer .f_link{padding: 0 60px;}
+
+}
+@media (max-width:600px) {
+    h3{font-size: 30px;}
+
+    /* contents1 */
+    .contents1 > article{height: 600px;}
+    .contents1 > article p{font-size: 13px;}
+    .contents1 .intro > h3{font-size: 36px;}
+    .contents1 .fd_intro > .fdint_box > h4{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    /* contents2 */
+    .contents2 article{height: 300px;}
+    .contents2 article > .tour_box > h4{font-size: 30px;}
+    .contents2 article > .tour_box > p{font-size: 16px;}
+    .contents2 article > .tour_box > em{font-size: 14px;}
+    .contents2 article > .tour_box > em > strong{font-size: 18px;}
+    .contents2 .tour1 > .tour_box > h4{font-size: 30px;}
+    .contents2 .tour1 > .tour_box > p{font-size: 16px;}
+    .contents2 .tour1 > .tour_box > em{font-size: 14px;}
+    .contents2 .tour1 > .tour_box > em > strong{font-size: 18px;}
+
+    /* contents3 */
+    .contents3 .edu_card{height: 24%;}
+    .contents3 .edu_card:nth-of-type(1) a{background : linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.5)), url(../img/edu1.png) center;}
+    .contents3 .edu_card a{background-size: cover; background-position: center;}.contents3 .edu_card:nth-of-type(2) a{background : linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.5)), url(../img/edu2.png) center;}
+    .contents3 .edu_card a{background-size: cover; background-position: center;}.contents3 .edu_card:nth-of-type(3) a{background : linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.5)), url(../img/edu3.png) center;}
+    .contents3 .edu_card a{background-size: cover; background-position: center;}.contents3 .edu_card:nth-of-type(4) a{background : linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.5)), url(../img/edu4.png) center;}
+    .contents3 .edu_card > a > .edu_box{width: 100%;}
+    .contents3 .edu_card > a{
+        padding: 5%;
+        background-size: cover; 
+    }
+    .contents3 .edu_card > a > img{display: none;}
+
+    /* footer */
+    .footer .f_left{width: 100%;}
+    .footer .f_mid{width: 100%;}
+    .footer .f_right{width: 100%;display: flex;justify-content: space-evenly;}
+    .footer .f_logo{height: 100px}
+    .footer .f_menu{padding-left: 40px;}
+    .footer .f_info{padding-left: 50px;}
+    .footer .f_copy{padding-left: 50px;}
+    .footer .f_customer{width: 60%;padding: 15px 0 10px 70px;}
+    .footer .f_customer em{margin: 2px 0 5px 0;}
+    .footer .f_link{width: 40%;height: auto;padding: 0 70px 0 0;}
+}
+@media (max-width:480px) {
+    h3{font-size: 19px;}
+
+    /* header */
+    .header .etc{
+        width: 120px;
+        right: 50px;
+    }
+    .header .nav_m{
+        position: absolute;
+        top: 23px;
+        right: 20px;
+        width: 16px;
+        height: 15px;
+        cursor: pointer;
+    }
+    .header .nav_m span{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #555;
+        border-radius: 2px;
+        position: relative;
+    }
+    
+    .header .nav_m span::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 100%;
+        height: 3px;
+        background-color: #555;
+        border-radius: 2px;
+    }
+
+    /* contents1 */
+    .contents1 > article{height: auto;}
+    .contents1 > article p{font-size: 12px;}
+    .contents1 .intro > h3{font-size: 20px;}
+    /* contents2 */
+    .contents2 article{height: 300px;}
+    .contents2 article > .tour_box > h4{font-size: 30px;}
+    .contents2 article > .tour_box > p{font-size: 11px;height: 40px;}
+    .contents2 article > .tour_box > em{font-size: 14px;}
+    .contents2 article > .tour_box > em > strong{font-size: 18px;}
+    .contents2 article > .tour_box > .tour_btn{width: 120px;line-height: 33px;font-size: 22px;}
+    .contents2 .tour1 > .tour_box > h4{font-size: 30px;}
+    .contents2 .tour1 > .tour_box > p{font-size: 11px;}
+    .contents2 .tour1 > .tour_box > em{font-size: 14px;}
+    .contents2 .tour1 > .tour_box > em > strong{font-size: 18px;}
+
+    /* contents4 */
+    /* contents4 */
+    .contents4{height: 700px;}
+    .contents4 .tab_menu >ul>li>a{width: 60px;font-size: 14px;line-height: 30px;}
+    .contents4 .tab_menu >ul>li>.swiper {top: 50px;}
+    .contents4 .tab_menu >ul>li>.swiper .swiper-slide{height: 500px;}
+
+    /* footer */
+    .footer .f_mid{padding: 0px;}
+    .footer .f_right{flex-wrap: wrap;}
+    .footer .f_logo{height: 80px}
+    .footer .f_menu{padding-left: 5px;}
+    .footer .f_info{padding-left: 15px;}
+    .footer .f_copy{padding-left: 15px;}
+    .footer .f_customer{width: 100%;padding: 15px 0 10px 15px;}
+    .footer .f_link{width: 50%;padding: 5px;}    
+}
+@media (max-width:320px) {
+    h3{font-size: 16px;}
+
+    
+    /* contents3 */
+    .contents3 .edu_card > a > .edu_box > h4{font-size: 19px;}
+    .contents3 .edu_card > a > .edu_box > p{font-size: 13px;}
+
+    /* footer */
+    .footer .f_link{width: 80%;}
+    .footer .f_menu ul li a{font-size: 10px;}
+}
